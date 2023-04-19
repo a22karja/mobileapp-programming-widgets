@@ -17,6 +17,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="JAG GILLAR HATTAR" />
+
+        <EditText
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Write In Me"
+            android:layout_marginLeft="100px"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
