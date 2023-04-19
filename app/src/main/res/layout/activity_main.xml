@@ -8,15 +8,11 @@
 
     <LinearLayout
         android:layout_width="409dp"
-        android:layout_height="600dp"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="JAG GILLAR HATTAR" />
 
         <EditText
             android:id="@+id/textView"
