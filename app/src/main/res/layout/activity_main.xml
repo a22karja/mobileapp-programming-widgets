@@ -3,12 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="409dp"
-        android:layout_height="354dp"
+        android:layout_height="600dp"
         android:orientation="horizontal"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
@@ -20,11 +20,19 @@
 
         <EditText
             android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="263dp"
+            android:layout_height="263dp"
+            android:layout_marginLeft="100px"
             android:layout_weight="1"
-            android:hint="Write In Me"
-            android:layout_marginLeft="100px"/>
+            android:hint="Write In Me" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="409dp"
+            android:layout_height="263dp"
+            android:layout_marginTop="100px"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/hatt" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
