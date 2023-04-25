@@ -61,5 +61,5 @@ tools:layout_editor_absoluteY="1dp">
 ```
 Bilder läggs i samma mapp som markdown-filen.
 
-![](assignment3.jpeg)
+![](assignment3.jpg)
 
